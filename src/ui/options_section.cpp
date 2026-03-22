@@ -20,7 +20,7 @@ public:
 
     TA_MoveSoundId move(int delta) override {
         int value = TA::save::getParameter("base_height");
-        value = (value + delta + 4) % 4;
+        value = (value + delta + 5) % 5;
         TA::save::setParameter("base_height", value);
         return TA_MOVE_SOUND_SWITCH;
     }
