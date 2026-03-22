@@ -77,6 +77,8 @@ int TA::getBaseHeight(int index) {
             return 180;
         case 3:
             return 192;
+        case 4:
+            return 240;
         default:
             return 144;
     }
